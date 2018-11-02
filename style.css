@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+nav.my-navbar {
+    padding: .5em 0;
+}
+
+.logo a {
+    font-size: 38px;
+    font-weight: 400;
+    color: #ff6c5f;
+}
+
+.logo a:hover {
+    color: #ff6c5f;
+}
+
+.logo a span {
+    font-weight: 700;
+}
+
+.logo {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.my-socials {
+    margin-top: 35px;
+    margin-left: 12px;
+}
+
+.my-socials a span {
+    background-color: #333;
+    color: #ffffff;
+    font-size: 15px;
+    outline-offset: 2px;
+    outline: 2px solid #353535;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 10px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -mos-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.my-socials a span:hover {
+    background-color: #3b5998;
+    color: #FFF;
+    outline: 2px solid #3b5998;
+}
+
+.my-socials ul li {
+    display: inline-flex;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.top {
+    margin-top: 50px;
+}
+
+.pad {
+    padding-top: 13%;
+}
+
+.my-banner {
+    background: url("images/black-landscape.jpg") no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 90vh;
+}
+
+.my-dot {
+    /*background: url("images/more-white.png") no-repeat 0px 0px;*/
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 90vh;
+}
+
+.my-info {
+    text-align: center;
+}
+
+.my-info h1, .my-info h2, .my-info h3 {
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+
+.my-info p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 28px;
+    margin: 20px auto 40px;
+    width: 80%;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.my-info ul li {
+    display: inline-block;
+    margin-bottom: 3em;
+}
+
+.my-info ul li a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #212121;
+    font-size: 15px;
+}
+
+.my-contact, .my-more:hover {
+    border: 2px solid #FFF;
+    color: #ffffff !important;
+    background: none;
+}
+
+.my-more, .my-contact:hover {
+    border: 2px solid #FFF;
+    color: #000 !important;
+    background: #ffffff;
+}
+
+.my-info h1 span, .my-info h2 spna, .my-info h3 span {
+    font-weight: 700;
+    color: #00bee4;
+}
+
+h3 .text-center {
+    color: #000;
+    text-transform: capitalize;
+}
+
+.about {
+    padding: 20px 0;
+}
+
+.about h3{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.about-left {
+    background: url("images/about-me2.jpg") no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 500px;
+    padding: 5em 0em 0em 4em;
+}
+
+.about-pad {
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+ul.adress-text li {
+    display: inline-block;
+    color: #000000;
+    margin-top: 1em;
+}
+
+ul.adress-text li:nth-child(1) {
+    width: 25%;
+}
+
+ul.adress-text li a {
+    color: #000000;
+}
+
+.about-socials a span {
+    background: #eee;
+    color: #333;
+    font-size: 15px;
+    outline: 2px solid #f3f3f3;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 30px 10px 0px;
+}
+
+.about-right h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #ff6c5f;
+    margin-bottom: 1em;
+}
+
+.about-right h4 {
+    text-transform: capitalize;
+    color: #252323;
+    margin-bottom: 1em;
+}
+
+.about-right p {
+    line-height: 28px;
+    color: #212121;
+    letter-spacing: 0px;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    border-bottom: 1px dashed #646464;
+}
+
+.about-right {
+    padding-left: 4em;
+}
+
+.about-right ul li a {
+    padding: 10px 30px;
+    text-decoration: none;
+    /*color: #333;*/
+    font-size: 15px;
+    border: 2px solid #333;
+}
+
+.about-right ul li {
+    display: inline-block;
+    margin-top: 2em;
+}
+
+.about-contact, .about-more:hover {
+    border: 2px solid #333;
+    color: #333;
+!important;
+    background: none;
+}
+
+.about-more, .about-contact:hover {
+    border: 2px solid #333;
+    color: #fff;
+!important;
+    background: #333;
+}
+
+@media {
+    .top {
+        margin-top: 80px;
+    }
+
+}
