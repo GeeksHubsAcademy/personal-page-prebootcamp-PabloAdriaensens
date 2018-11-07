@@ -278,11 +278,11 @@ ul.adress-text li a {
     color: #fff;
 }
 
-.my-services-left-grid h3{
+.my-services-left-grid h3 {
     color: #fff;
 }
 
-.my-services-left-grid h4{
+.my-services-left-grid h4 {
     font-size: 1.4em;
     color: #fff;
     margin-bottom: 1em;
@@ -290,14 +290,14 @@ ul.adress-text li a {
     letter-spacing: 2px;
 }
 
-.my-icon-grid1 i{
+.my-icon-grid1 i {
     font-size: 2.3em;
     color: #1cc7d0;
     float: left;
     width: 40px;
 }
 
-.my-services-left-grid, .my-icon-grid1 p{
+.my-services-left-grid, .my-icon-grid1 p {
     font-size: 14px;
     line-height: 28px;
     letter-spacing: 0.5px;
@@ -306,11 +306,11 @@ ul.adress-text li a {
     padding: 0 0em;
 }
 
-.my-icon-grid-gap1{
+.my-icon-grid-gap1 {
     margin: 0em 0em 4em 0em;
 }
 
-.my-services-right-grid h3{
+.my-services-right-grid h3 {
     text-transform: uppercase;
     color: #fff;
     font-size: 18px;
@@ -320,7 +320,7 @@ ul.adress-text li a {
     margin-bottom: 15px;
 }
 
-.my-services-left-grid a{
+.my-services-left-grid a {
     color: #fff;
     text-transform: capitalize;
     border: 2px solid #fff;
@@ -338,7 +338,7 @@ ul.adress-text li a {
     margin: 2em 0;
 }
 
-.my-skills h3{
+.my-skills h3 {
     margin: 40px 0 40px 0;
     font-size: 40px;
 }
@@ -363,7 +363,7 @@ ul.adress-text li a {
 }
 
 .bar-grids h5 {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #000;
     text-transform: uppercase;
     letter-spacing: 0px;
@@ -385,11 +385,11 @@ ul.adress-text li a {
 .progress {
     height: 20px;
     margin-bottom: 2.2em;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .last {
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
 }
 
 .bar-grids h6 {
@@ -400,7 +400,7 @@ ul.adress-text li a {
     letter-spacing: 1px;
 }
 
-.bar-grids h6 span{
+.bar-grids h6 span {
     float: right;
     font-size: 0.5em;
 }
@@ -451,6 +451,56 @@ ul.adress-text li a {
 .grid6 span.fas {
     color: #ff4f81;
     border: 2px solid #ff4f81;
+}
+
+/* Contact Me CSS */
+
+.contact-me {
+    background-color: #4e555b;
+    margin: 40px 0 0 0;
+}
+
+.form-management {
+    margin: 40px 0 40px 0;
+}
+
+.btn-dark {
+    width: 100%;
+}
+
+.info-contacto {
+    color: #fff;
+    margin: 40px 0 0 0;
+}
+
+.bar-grids2 p {
+    color: #fff;
+    margin: 0 0 30px 0;
+}
+
+.my-icon-grid2 i {
+    font-size: 1.3em;
+    color: #fff;
+    float: left;
+    width: 40px;
+}
+
+.footer-page {
+    background-color: #000000;
+    color: #fff;
+}
+
+.p-footer {
+    margin: 40px 0 20px 0;
+}
+
+
+.my-icon-grid3 {
+    margin: 20px 0 0 0;
+    font-size: 2.3em;
+    color: #1cc7d0;
+    float: left;
+    width: 40px;
 }
 
 @media {
