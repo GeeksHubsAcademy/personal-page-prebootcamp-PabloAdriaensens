@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Cv</title>
+    <title>Pablo Adriaensens - Web Page</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
@@ -51,22 +51,22 @@
 <div class="fat-nav">
     <div class="fat-nav__wrapper">
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About Me</a></li>
-            <li><a href="">My Services</a></li>
-            <li><a href="">My Skills</a></li>
-            <li><a href="">My Projects</a></li>
-            <li><a href="">Stats</a></li>
-            <li><a href="">Work Experience</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a id="btn-home" href="#">Home</a></li>
+            <li><a id="btn-about" href="#">About Me</a></li>
+            <li><a id="btn-services" href="#">My Services</a></li>
+            <li><a id="btn-skills" href="#">My Skills</a></li>
+            <!-- <li><a id="btn-projects" href="#">My Projects</a></li>
+            <li><a id="btn-stats" href="#">Stats</a></li>
+            <li><a id="btn-experience" href="#">Work Experience</a></li> -->
+            <li><a id="btn-contact" href="#">Contact</a></li>
         </ul>
     </div>
 </div>
 
 <!-- Top class -->
-<div class="top">
-    <div class="my-banner">
-        <div class="my-dot">
+<section id="sec-home">
+    <div class="top">
+        <div class="my-banner">
             <div class="container pad">
                 <div class="flexslider col-md-6">
                     <ul class="slides">
@@ -123,314 +123,324 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <!-- About Me class -->
-<div class="about">
-    <div class="container">
-        <h3 class="text-center">About Me</h3>
-        <div class="row">
-            <div class="col-md-5 about-left">
-                <div class="about-pad">
-                    <ul class="adress">
-                        <li>
-                            <ul class="adress-text">
-                                <li>Name</li>
-                                <li>Pablo Adriaensens</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="adress-text">
-                                <li>D.O.B</li>
-                                <li>17-05-1994</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="adress-text">
-                                <li>Phone</li>
-                                <li>123456789</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="adress-text">
-                                <li>Job</li>
-                                <li>Designer And Developer</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="adress-text">
-                                <li>Experience</li>
-                                <li>+ 2 Years</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="adress-text">
-                                <li>Adress</li>
-                                <li>Calle Colón, 46004 Valencia</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="adress-text">
-                                <li>Email</li>
-                                <li><a href="mailto:example@mail.com">email@gmail.com</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="adress-text">
-                                <li>Website</li>
-                                <li><a href="#">www.personal-website.com</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <div class="my-socials about-socials">
-                        <ul>
+<section id="sec-about">
+    <div class="about">
+        <div class="container">
+            <h3 class="text-center">About Me</h3>
+            <div class="row">
+                <div class="col-md-5 about-left">
+                    <div class="about-pad">
+                        <ul class="adress">
                             <li>
-                                <a href="https://www.linkedin.com/in/pablo-adriaensens-albi%C3%B1ana-619a45141/"
-                                   target="_blank">
-                                    <span class="fab fa-linkedin"></span> </a>
+                                <ul class="adress-text">
+                                    <li>Name</li>
+                                    <li>Pablo Adriaensens</li>
+                                </ul>
                             </li>
                             <li>
-                                <a href="https://github.com/PabloAdriaensens" target="_blank">
-                                    <span class="fab fa-github"></span> </a>
+                                <ul class="adress-text">
+                                    <li>D.O.B</li>
+                                    <li>17-05-1994</li>
+                                </ul>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/adriaensens" target="_blank">
-                                    <span class="fab fa-facebook-f"></span> </a>
+                                <ul class="adress-text">
+                                    <li>Phone</li>
+                                    <li>123456789</li>
+                                </ul>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/channel/UCRA4FF2aRnNXB4idJ_8FLtg?view_as=subscriber"
-                                   target="_blank">
-                                    <span class="fab fa-youtube"></span> </a>
+                                <ul class="adress-text">
+                                    <li>Job</li>
+                                    <li>Designer And Developer</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="adress-text">
+                                    <li>Experience</li>
+                                    <li>+ 2 Years</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="adress-text">
+                                    <li>Adress</li>
+                                    <li>Calle Colón, 46004 Valencia</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="adress-text">
+                                    <li>Email</li>
+                                    <li><a href="mailto:example@mail.com">email@gmail.com</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="adress-text">
+                                    <li>Website</li>
+                                    <li><a href="#">www.personal-website.com</a></li>
+                                </ul>
                             </li>
                         </ul>
+                        <div class="my-socials about-socials">
+                            <ul>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/pablo-adriaensens-albi%C3%B1ana-619a45141/"
+                                       target="_blank">
+                                        <span class="fab fa-linkedin"></span> </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/PabloAdriaensens" target="_blank">
+                                        <span class="fab fa-github"></span> </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/adriaensens" target="_blank">
+                                        <span class="fab fa-facebook-f"></span> </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UCRA4FF2aRnNXB4idJ_8FLtg?view_as=subscriber"
+                                       target="_blank">
+                                        <span class="fab fa-youtube"></span> </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-7 about-right">
-                <h3>Hi, I am Pablo</h3>
-                <h4>Web designer: + 2 years of coding experience</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aperiam,
-                    assumenda delectus dolorum esse et fugit inventore ipsa iure laudantium,
-                    omnis quae reprehenderit sapiente suscipit, tempora totam ut veritatis?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aperiam,
-                    assumenda delectus dolorum esse et fugit inventore ipsa iure laudantium,
-                    omnis quae reprehenderit sapiente suscipit, tempora totam ut veritatis?</p>
-                <ul>
-                    <li><a href="#" class="about-more">Hire me</a></li>
-                    <li><a href="#" class="about-contact">Contact me</a></li>
-                </ul>
+                <div class="col-md-7 about-right">
+                    <h3>Hi, I am Pablo</h3>
+                    <h4>Web designer: + 2 years of coding experience</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aperiam,
+                        assumenda delectus dolorum esse et fugit inventore ipsa iure laudantium,
+                        omnis quae reprehenderit sapiente suscipit, tempora totam ut veritatis?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aperiam,
+                        assumenda delectus dolorum esse et fugit inventore ipsa iure laudantium,
+                        omnis quae reprehenderit sapiente suscipit, tempora totam ut veritatis?</p>
+                    <ul>
+                        <li><a href="#" class="about-more">Hire me</a></li>
+                        <li><a href="#" class="about-contact">Contact me</a></li>
+                    </ul>
+                </div>
             </div>
+            <div class="clearfix"></div>
         </div>
-        <div class="clearfix"></div>
     </div>
-</div>
+</section>
 
 <!-- My Services class -->
-<div class="my-services">
-    <div class="container">
-        <h3 class="text-center">My Services</h3>
-        <div class="row">
-            <div class="col-lg-4 my-services-left-grid">
-                <h4>Aliquam beatae natus vero?</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto cumque, facilis libero nam
-                    quidem rerum tempora ullam. A blanditiis consequatur dignissimos natus nemo, nihil quae sed?</p>
-                <div class="more">
-                    <a href="#">Know More</a>
-                </div>
-            </div>
-            <div class="col-lg-8 my-services-right-grid">
-                <div class="my-icon-grid-gap1">
-                    <div class="row">
-                        <div class="col-lg-4 my-icon-grid1">
-                            <i class="fab fa-codepen"></i>
-                            <h3>Web Design</h3>
-                            <div class="clearfix"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                        <div class="col-lg-4 my-icon-grid1">
-                            <i class="fas fa-mobile-alt"></i>
-                            <h3>Mobile Apps</h3>
-                            <div class="clearfix"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                        <div class="col-lg-4 my-icon-grid1">
-                            <i class="fas fa-hourglass"></i>
-                            <h3>Animation</h3>
-                            <div class="clearfix"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                        <div class="col-lg-4 my-icon-grid1">
-                            <i class="fab fa-modx"></i>
-                            <h3>Photoshop</h3>
-                            <div class="clearfix"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                        <div class="col-lg-4 my-icon-grid1">
-                            <i class="fas fa-chart-bar"></i>
-                            <h3>Marketing</h3>
-                            <div class="clearfix"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                        <div class="col-lg-4 my-icon-grid1">
-                            <i class="fas fa-shopping-bag"></i>
-                            <h3>Development</h3>
-                            <div class="clearfix"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                        <div class="clearfix"></div>
+<section id="sec-services">
+    <div class="my-services">
+        <div class="container">
+            <h3 class="text-center">My Services</h3>
+            <div class="row">
+                <div class="col-lg-4 my-services-left-grid">
+                    <h4>Aliquam beatae natus vero?</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto cumque, facilis libero
+                        nam
+                        quidem rerum tempora ullam. A blanditiis consequatur dignissimos natus nemo, nihil quae sed?</p>
+                    <div class="more">
+                        <a href="#">Know More</a>
                     </div>
                 </div>
-                <div class="clearfix"></div>
+                <div class="col-lg-8 my-services-right-grid">
+                    <div class="my-icon-grid-gap1">
+                        <div class="row">
+                            <div class="col-lg-4 my-icon-grid1">
+                                <i class="fab fa-codepen"></i>
+                                <h3>Web Design</h3>
+                                <div class="clearfix"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="col-lg-4 my-icon-grid1">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h3>Mobile Apps</h3>
+                                <div class="clearfix"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="col-lg-4 my-icon-grid1">
+                                <i class="fas fa-hourglass"></i>
+                                <h3>Animation</h3>
+                                <div class="clearfix"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="col-lg-4 my-icon-grid1">
+                                <i class="fab fa-modx"></i>
+                                <h3>Photoshop</h3>
+                                <div class="clearfix"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="col-lg-4 my-icon-grid1">
+                                <i class="fas fa-chart-bar"></i>
+                                <h3>Marketing</h3>
+                                <div class="clearfix"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="col-lg-4 my-icon-grid1">
+                                <i class="fas fa-shopping-bag"></i>
+                                <h3>Development</h3>
+                                <div class="clearfix"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <!-- My Skills class -->
-<div class="my-skills">
-    <div class="container">
-        <h3 class="text-center">My Skills</h3>
-        <div class="row">
-            <div class="col-md-6 bar-grids bargrid-left">
-                <h4>Technical Skills of Our University</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusantium ad animi commodi cum
-                    debitis esse excepturi, exercitationem ipsum nobis quae repellendus reprehenderit rerum, soluta,
-                    veniam voluptate. Illo, minus!</p>
-                <h6>Web Design</h6>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped active" style="width: 60%">
-                    </div>
-                </div>
-                <h6>ui Design & developer</h6>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped active" style="width: 40%">
-                    </div>
-                </div>
-                <h6>JavaScript</h6>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped active" style="width: 80%">
-                    </div>
-                </div>
-                <h6>Photoshop</h6>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped active" style="width: 20%">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 bar-grids">
-                <h4>My Hobbies</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id mollitia nostrum perspiciatis
-                    recusandae. Aut non, voluptatum. Cum expedita labore pariatur, placeat quis reiciendis repellat!
-                    Earum exercitationem iusto numquam odio vel.</p>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="hobbies-grid1 grid1">
-                            <span class="fas fa-code"></span>
-                            <h5>Coding</h5>
+<section id="sec-skills">
+    <div class="my-skills">
+        <div class="container">
+            <h3 class="text-center">My Skills</h3>
+            <div class="row">
+                <div class="col-md-6 bar-grids bargrid-left">
+                    <h4>Technical Skills of Our University</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusantium ad animi commodi cum
+                        debitis esse excepturi, exercitationem ipsum nobis quae repellendus reprehenderit rerum, soluta,
+                        veniam voluptate. Illo, minus!</p>
+                    <h6>Web Design</h6>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped active" style="width: 60%">
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="hobbies-grid1 grid2">
-                            <span class="fas fa-plane"></span>
-                            <h5>Traveling</h5>
+                    <h6>ui Design & developer</h6>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped active" style="width: 40%">
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="hobbies-grid1 grid4">
-                            <span class="fas fa-camera-retro"></span>
-                            <h5>Photography</h5>
+                    <h6>JavaScript</h6>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped active" style="width: 80%">
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="hobbies-grid1 grid5">
-                            <span class="fas fa-headphones"></span>
-                            <h5>Music</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="hobbies-grid1 grid3">
-                            <span class="fas fa-running"></span>
-                            <h5>Exercise</h5>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="hobbies-grid1 grid6 last">
-                            <span class="fas fa-tint"></span>
-                            <h5>Thinking</h5>
+                    <h6>Photoshop</h6>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped active" style="width: 20%">
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-
-<!-- Contact Me class -->
-<div class="contact-me">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 bar-grids bargrid-left">
-                <form class="form-management" action="">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="name" placeholder="Full Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                               placeholder="Email Address">
-                    </div>
-                    <div class="form-group">
-                        <input type="number" class="form-control" id="phone" placeholder="Phone Number">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" id="message" placeholder="Message" rows="5"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-dark">Send Message</button>
-                </form>
-            </div>
-            <div class="col-md-6 bar-grids2 bargrid-left">
-                <div class="info-contacto">
-                    <h4 class="title-skill">Contact Me For More Details</h4>
+                <div class="col-md-6 bar-grids">
+                    <h4>My Hobbies</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id mollitia nostrum perspiciatis
                         recusandae. Aut non, voluptatum. Cum expedita labore pariatur, placeat quis reiciendis repellat!
                         Earum exercitationem iusto numquam odio vel.</p>
                     <div class="row">
-                        <div class="col-md-12 my-icon-grid2">
-                            <div class="">
-                                <i class="fas fa-phone"></i>
-                                <h6>123456789</h6>
+                        <div class="col-md-4">
+                            <div class="hobbies-grid1 grid1">
+                                <span class="fas fa-code"></span>
+                                <h5>Coding</h5>
                             </div>
                         </div>
-                        <div class="col-md-12 my-icon-grid2">
-                            <div class="">
-                                <i class="fas fa-mail-bulk"></i>
-                                <h6>mail@gmail.com</h6>
+                        <div class="col-md-4">
+                            <div class="hobbies-grid1 grid2">
+                                <span class="fas fa-plane"></span>
+                                <h5>Traveling</h5>
                             </div>
                         </div>
-                        <div class="col-md-12 my-icon-grid2">
-                            <i class="fas fa-map"></i>
-                            <h6>Calle Colón, Valencia</h6>
+                        <div class="col-md-4">
+                            <div class="hobbies-grid1 grid4">
+                                <span class="fas fa-camera-retro"></span>
+                                <h5>Photography</h5>
+                            </div>
                         </div>
-                        <div class="col-md-12 my-icon-grid2">
-                            <i class="fab fa-linkedin"></i>
-                            <a href="https://www.linkedin.com/in/pablo-adriaensens-albi%C3%B1ana-619a45141/"
-                               target="_blank">
-                                <h6>linkedIn</h6></a>
+                        <div class="col-md-4">
+                            <div class="hobbies-grid1 grid5">
+                                <span class="fas fa-headphones"></span>
+                                <h5>Music</h5>
+                            </div>
                         </div>
-                        <div class="col-md-12 my-icon-grid2">
-                            <i class="fab fa-facebook"></i>
-                            <a href="https://www.facebook.com/adriaensens"
-                               target="_blank">
-                                <h6>Facebook</h6></a>
+                        <div class="col-md-4">
+                            <div class="hobbies-grid1 grid3">
+                                <span class="fas fa-running"></span>
+                                <h5>Exercise</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hobbies-grid1 grid6 last">
+                                <span class="fas fa-motorcycle"></span>
+                                <h5>Motorcycle</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-</div>
+    </div>
+</section>
+
+<!-- Contact Me class -->
+<section id="sec-contact">
+    <div class="contact-me">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 bar-grids bargrid-left">
+                    <form class="form-management" action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                   placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" id="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" placeholder="Message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6 bar-grids2 bargrid-left">
+                    <div class="info-contacto">
+                        <h4 class="title-skill">Contact Me For More Details</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id mollitia nostrum perspiciatis
+                            recusandae. Aut non, voluptatum. Cum expedita labore pariatur, placeat quis reiciendis
+                            repellat!
+                            Earum exercitationem iusto numquam odio vel.</p>
+                        <div class="row">
+                            <div class="col-md-12 my-icon-grid2">
+                                <div class="">
+                                    <i class="fas fa-phone"></i>
+                                    <h6>123456789</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-12 my-icon-grid2">
+                                <div class="">
+                                    <i class="fas fa-mail-bulk"></i>
+                                    <h6>mail@gmail.com</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-12 my-icon-grid2">
+                                <i class="fas fa-map"></i>
+                                <h6>Calle Colón, Valencia</h6>
+                            </div>
+                            <div class="col-md-12 my-icon-grid2">
+                                <i class="fab fa-linkedin"></i>
+                                <a href="https://www.linkedin.com/in/pablo-adriaensens-albi%C3%B1ana-619a45141/"
+                                   target="_blank">
+                                    <h6>linkedIn</h6></a>
+                            </div>
+                            <div class="col-md-12 my-icon-grid2">
+                                <i class="fab fa-facebook"></i>
+                                <a href="https://www.facebook.com/adriaensens"
+                                   target="_blank">
+                                    <h6>Facebook</h6></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
 
 <!-- Footer class -->
 <div class="footer-page">
@@ -444,9 +454,9 @@
                 <i class="fas fa-arrow-alt-circle-up"></i>
                 <a href="#"></a>
             </div>
-            <div class="col-md-5 col-sm-4">
+            <div class="col-md-6 col-sm-4">
                 <div class="right">
-                    <div class="my-socials">
+                    <div class="my-socials2">
                         <ul>
                             <li>
                                 <p>Connect me with: </p>
@@ -490,6 +500,7 @@
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/jquery.fatNav.js"></script>
+<script type="text/javascript" src="js/config-dom.js"></script>
 <script>
     (function () {
         $.fatNav();

@@ -42,22 +42,22 @@ nav.my-navbar {
 }
 
 .my-socials a span {
-    background-color: #333;
-    color: #ffffff;
-    font-size: 15px;
-    outline-offset: 2px;
-    outline: 2px solid #353535;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    margin: 0 10px;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -mos-transition: 0.5s all;
-    -o-transition: 0.5s all;
-}
+     background-color: #333;
+     color: #ffffff;
+     font-size: 15px;
+     outline-offset: 2px;
+     outline: 2px solid #353535;
+     width: 30px;
+     height: 30px;
+     text-align: center;
+     line-height: 30px;
+     margin: 0 10px;
+     transition: 0.5s all;
+     -webkit-transition: 0.5s all;
+     -moz-transition: 0.5s all;
+     -mos-transition: 0.5s all;
+     -o-transition: 0.5s all;
+ }
 
 .my-socials a span:hover {
     background-color: #3b5998;
@@ -92,7 +92,6 @@ li {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height: 90vh;
 }
 
 .my-dot {
@@ -501,6 +500,39 @@ ul.adress-text li a {
     color: #1cc7d0;
     float: left;
     width: 40px;
+}
+
+.my-socials2 {
+    margin-top: 35px;
+    margin-left: 12px;
+}
+
+.my-socials2 a span {
+    background-color: #333;
+    color: #ffffff;
+    font-size: 15px;
+    outline-offset: 2px;
+    outline: 2px solid #353535;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 5px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -mos-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.my-socials2 a span:hover {
+    background-color: #3b5998;
+    color: #FFF;
+    outline: 2px solid #3b5998;
+}
+
+.my-socials2 ul li {
+    display: inline-flex;
 }
 
 @media {
