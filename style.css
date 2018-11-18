@@ -10,6 +10,8 @@ body a:hover {
     text-decoration: none;
 }
 
+/* - - - - - - - - - - - - - - - Navbar - - - - - - - - - - - - - - - */
+
 nav.my-navbar {
     padding: .5em 0;
 }
@@ -42,22 +44,22 @@ nav.my-navbar {
 }
 
 .my-socials a span {
-     background-color: #333;
-     color: #ffffff;
-     font-size: 15px;
-     outline-offset: 2px;
-     outline: 2px solid #353535;
-     width: 30px;
-     height: 30px;
-     text-align: center;
-     line-height: 30px;
-     margin: 0 10px;
-     transition: 0.5s all;
-     -webkit-transition: 0.5s all;
-     -moz-transition: 0.5s all;
-     -mos-transition: 0.5s all;
-     -o-transition: 0.5s all;
- }
+    background-color: #333;
+    color: #ffffff;
+    font-size: 15px;
+    outline-offset: 2px;
+    outline: 2px solid #353535;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 10px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -mos-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
 
 .my-socials a span:hover {
     background-color: #3b5998;
@@ -86,21 +88,16 @@ li {
     padding-top: 13%;
 }
 
+/* - - - - - - - - - - - - - - - Fin-Navbar - - - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - - Sec-home - - - - - - - - - - - - - - - */
 .my-banner {
     background: url("images/black-landscape.jpg") no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
-
-.my-dot {
-    /*background: url("images/more-white.png") no-repeat 0px 0px;*/
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height: 90vh;
+    height: 100%;
 }
 
 .my-info {
@@ -158,6 +155,10 @@ h3 .text-center {
     color: #000;
     text-transform: capitalize;
 }
+
+/* - - - - - - - - - - - - - - - Fin-home - - - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - - Sec-about - - - - - - - - - - - - - - - */
 
 .about {
     padding: 20px 0;
@@ -261,6 +262,10 @@ ul.adress-text li a {
     background: #333;
 }
 
+/* - - - - - - - - - - - - - - - Fin-about - - - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - - Sec-my-services - - - - - - - - - - - - - - - */
+
 .my-services {
     background: url("images/my-services.jpg") no-repeat 0px 0px;
     background-size: cover;
@@ -332,6 +337,10 @@ ul.adress-text li a {
     background: #1cc7d0;
     border: 2px solid #1cc7d0;
 }
+
+/* - - - - - - - - - - - - - - - Fin-my-services - - - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - - Sec-my-skills - - - - - - - - - - - - - - - */
 
 .more {
     margin: 2em 0;
@@ -452,7 +461,9 @@ ul.adress-text li a {
     border: 2px solid #ff4f81;
 }
 
-/* Contact Me CSS */
+/* - - - - - - - - - - - - - - - Fin-my-skills - - - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - - Sec-contact-me - - - - - - - - - - - - - - - */
 
 .contact-me {
     background-color: #4e555b;
@@ -484,6 +495,10 @@ ul.adress-text li a {
     width: 40px;
 }
 
+/* - - - - - - - - - - - - - - - Fin-contact-me - - - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - - Sec-footer - - - - - - - - - - - - - - - */
+
 .footer-page {
     background-color: #000000;
     color: #fff;
@@ -492,7 +507,6 @@ ul.adress-text li a {
 .p-footer {
     margin: 40px 0 20px 0;
 }
-
 
 .my-icon-grid3 {
     margin: 20px 0 0 0;
@@ -534,6 +548,8 @@ ul.adress-text li a {
 .my-socials2 ul li {
     display: inline-flex;
 }
+
+/* - - - - - - - - - - - - - - - Fin-footer - - - - - - - - - - - - - - - */
 
 @media {
     .top {
